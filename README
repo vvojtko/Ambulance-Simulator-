@@ -1,0 +1,30 @@
+****************************************README***********************************************
+
+FILES INCLUDED:
+Job.java
+Simulator.java
+CustomTests.java
+
+Project has been made as module (Program Design, Data Structures and Algorithms) assignment. Program is tend to find
+the optimal number of ambulances for hospitals performing tests in simulator. 
+TreeMaps/HashMaps, Priority Queues, Sets used to achieve the solution.
+
+
+Problem description:
+An ambulance service has a fixed number of vehicles and needs to send them out to bring patients to the onlyhospital 
+in the area as quickly as possible. However, there may be more patients requiring transport than ambulances, and some 
+patients require more urgent care than others. It is necessary to make sure that high priority patients are taken to 
+hospital first.To find the best number of ambulances and work out how best to schedule them, you must write a system 
+to simulate the behaviourof the service.The simulator will have the following basic rules:
+•Each patient is described  by a job, which has an ID, a priority number (lower numbers have a higher priority) 
+and a duration (how long it will take to travel to the patient, get them to hospital and return to the station).
+•The simulator has a queue of waiting jobs and a set of running jobs.
+•Jobs can be added to the simulator at any time. When this happens, they are added to the waiting queue.
+•At every simulator update (or tick) the simulator removes as many jobs as it can from the waiting queue in priority order 
+and adds them to the running set. It does this until it runs out of free ambulances or waiting jobs.
+•Also, every simulator update will cause each running job to be updated. If a job has completed -that is, it has been running 
+for longer than its duration -the job is removed from the running set. 
+•For simplicity, all times are simply recorded as the number of ticks passed (i.e. the number of times the simulator and 
+jobs have been updated)".
+
+***************************************WOJCIECH SOWINSKI***************************************************************
